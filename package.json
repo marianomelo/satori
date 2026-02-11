@@ -1,0 +1,31 @@
+{
+  "name": "satori",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsx src/esbuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@bunny.net/edgescript-sdk": "^0.12.1",
+    "@resvg/resvg-js": "^2.6.2",
+    "bunny-resvg": "^0.0.2",
+    "bunny-satori": "^0.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.9",
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "esbuild": "^0.27.3",
+    "esbuild-plugin-node-protocol-imports": "^0.0.1",
+    "satori": "^0.11.3",
+    "tsx": "^4.21.0",
+    "yoga-wasm-web": "^0.3.3"
+  }
+}
