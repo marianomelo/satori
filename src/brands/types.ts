@@ -23,4 +23,5 @@ export interface Brand {
 }
 
 export const FEED = { width: 1080, height: 1080 }
+export const FEED_VERTICAL = { width: 1080, height: 1350 }
 export const STORY = { width: 1080, height: 1920 }

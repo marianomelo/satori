@@ -3,7 +3,7 @@ import { comcer } from './comcer.js'
 import type { Brand } from './types.js'
 
 export type { Brand } from './types.js'
-export { FEED, STORY } from './types.js'
+export { FEED, FEED_VERTICAL, STORY } from './types.js'
 
 const brands: Record<string, Brand> = {
   subdominio,
